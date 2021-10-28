@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <title>Marcos Lescano</title>
 </head>
@@ -19,10 +19,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="información.html">Información</a>
+                    <a class="nav-link " aria-current="page" href="información.html">Información</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -35,20 +35,25 @@
             </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Contacto</a>
+                    <a class="nav-link " aria-current="page" href="index.html">Contacto</a>
                 </li>
             </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+            <div class="form-check form-switch">
+                <input type="checkbox" class="form-check-input" id="darkSwitch" />
+            </div>
+            <form>
+                <button class="btn btn-outline-success" type="submit">Register</button>
+                <button class="btn btn-outline-success" type="submit">sign up</button>
             </form>
         </div>
         </div>
     </nav>
-    <div class="form-check form-switch">
-        <input type="checkbox" class="form-check-input" id="darkSwitch" />
-        <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
-    </div>
+
+
+    <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+    </form>
 <script src="js/bootstrap.js"></script>
 <script src="js/dark-mode-switch.min.js"></script>
 </body>

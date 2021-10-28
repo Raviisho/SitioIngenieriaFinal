@@ -24,3 +24,20 @@
 [data-theme="dark"] .bg-white {
   background-color: #000 !important;
 }
+
+[data-theme="dark"] nav a {
+  color: #fff !important;
+}
+
+[data-theme="dark"] .dropdown-menu {
+  background-color: #222 !important;
+}
+
+[data-theme="dark"] .dropdown-item:hover, .dropdown-item:focus {
+  background-color: #0f52ce !important;
+}
+
+[data-theme="dark"] .nav-link:hover, .nav-link:focus {
+  color: #ffff;
+  background-color: #0a58ca;
+}

@@ -45,3 +45,8 @@
   color: #ffff;
   background-color: #0a58ca;
 }
+
+[data-theme="dark"] .card {
+  background-color: #222;
+  color: #ffff;
+}

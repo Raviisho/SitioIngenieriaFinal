@@ -50,3 +50,11 @@
   background-color: #222;
   color: #ffff;
 }
+
+[data-theme="dark"] div .container {
+  background-color: #222 !important;
+}
+
+[data-theme="dark"] a {
+  color: #fff;
+}

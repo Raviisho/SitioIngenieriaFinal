@@ -10,39 +10,85 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="form-floating mb-3">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-        <label for="floatingInput">Email address</label>
-    </div>
-    <div class="form-floating">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-        <label for="floatingPassword">Password</label>
-    </div>
 
-    <form class="row gx-3 gy-2 align-items-center">
-        <div class="col-sm-3">
-          <label class="visually-hidden" for="specificSizeInputName">Name</label>
-          <input type="text" class="form-control" id="specificSizeInputName" placeholder="Jane Doe">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+
+      </div>
+      <div class="col">
+        <div class="text-end">
+          <img src="#" alt="" width="48">
         </div>
-        <div class="col-sm-3">
-          <label class="visually-hidden" for="specificSizeInputGroupUsername">Username</label>
-          <div class="input-group">
-            <div class="input-group-text">@</div>
-            <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="Username">
+          <h2 class="fw-bold text-center py-5">Bienvenido</h2>
+
+        <!--LOGIN -->
+
+          <form action="#">
+            <div class="mb-4">
+              <label for="email" class="form-label">Correo electronico</label>
+              <input type="email" class="form-control" name="email">
+            </div>
+            <div class="mb-4">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" class="form-control" name="password">
+            </div>
+            <div class="mb-4">
+              <input type="checkbox" name="connected" class="form-check-input">
+              <label for="connected" class="form-check-label">Recuerdame</label>
+            </div>
+
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+            </div>
+
+            <div class="my-3">
+              <span>No tienes cuenta? <a href="#">Registrate</a></span>
+              <br>
+              <span><a href="#">Recuperar Password</a></span>
+            </div>
+          </form>
+
+          <!--LOGIN REDES-->
+
+          <div class="container w-100 my-5">
+            <div class="row text-center">
+              <div class="col-12">Iniciar Sesión</div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <button class="btn btn-outline-primary w-100 my-1">
+                  <div class="row align-items-center">
+                    <div class="col-2">
+                      <img src="img/fb.png" width="32" alt="">
+                    </div>
+
+                    <div class="col-10 text-center">
+                      Facebook
+                    </div>
+                  </div>
+                </button>
+              </div>
+              <div class="col">
+                <button class="btn btn-outline-danger w-100 my-1">
+                  <div class="row align-items-center">
+                    <div class="col-2">
+                      <img src="img/Google.png" width="32" alt="">
+                    </div>
+
+                    <div class="col-10 text-center">
+                      Google
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-3">
-          <label class="visually-hidden" for="specificSizeSelect">Preference</label>
-        </div>
-        <div class="col-auto">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
-            <label class="form-check-label" for="autoSizingCheck2">
-              Remember me
-            </label>
-          </div>
-        </div>
-      </form>
-<button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+
+<script src="js/bootstrap.js"></script>
+<script src="js/dark-mode-switch.min.js"></script>
 </body>
 </html>

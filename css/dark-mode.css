@@ -58,3 +58,7 @@
 [data-theme="dark"] a {
   color: #fff;
 }
+
+[data-theme="dark"] div .progress {
+  background-color: #222;
+}

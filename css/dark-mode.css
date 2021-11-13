@@ -13,10 +13,6 @@
   background-color: #fff !important;
 }
 
-[data-theme="dark"] .bg-dark {
-  background-color: #eee !important;
-}
-
 [data-theme="dark"] .bg-light {
   background-color: #222 !important;
 }
@@ -38,12 +34,12 @@
 }
 
 [data-theme="dark"] .dropdown-item:hover, .dropdown-item:focus {
-  background-color: #0f52ce !important;
+  background-color: var(--bs-warning) !important;
 }
 
 [data-theme="dark"] .nav-link:hover, .nav-link:focus {
   color: #ffff;
-  background-color: #0a58ca;
+  background-color: var(--bs-warning);
 }
 
 [data-theme="dark"] .card {

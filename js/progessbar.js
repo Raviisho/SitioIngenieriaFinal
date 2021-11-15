@@ -13,3 +13,13 @@ function ScrollProgressbar() {
 }
 
 window.addEventListener("scroll", ScrollProgressbar);
+
+
+$(".owl-carousel").owlCarousel({
+    autoplay: true,
+    autoplayhoverpause: true,
+    autoplaytimeout: 100,
+    items: 4,
+    nav: true,
+    loop: true,
+});

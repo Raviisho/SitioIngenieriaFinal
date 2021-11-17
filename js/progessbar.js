@@ -22,4 +22,45 @@ $(".owl-carousel").owlCarousel({
     items: 4,
     nav: true,
     loop: true,
+    lazyLoad: true,
+    margin: 5,
+    pading: 5,
+    stagePading: 5,
+    responsive: {
+        2560 : {
+            items: 8,
+        },
+        1920 : {
+            items: 6,
+        },
+        1.280 : {
+            items: 5,
+        },
+        1080 : {
+            items: 4,
+        },
+        960 : {
+            items: 4,
+        },
+        720 : {
+            items: 3,
+            dots: false,
+        },
+        640 : {
+            items: 3,
+            dots: false,
+        },
+        540 : {
+            items: 2,
+            dots: false,
+        },
+        320 : {
+            items: 1,
+            dots: false,
+        },
+        280: {
+            items: 1,
+            dots: false,
+        },
+    },
 });

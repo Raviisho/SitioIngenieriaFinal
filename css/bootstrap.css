@@ -7940,6 +7940,11 @@ textarea.form-control-lg {
   border-top-right-radius: 0.25rem !important;
 }
 
+.rounded-top-20 {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
 .rounded-end {
   border-top-right-radius: 0.25rem !important;
   border-bottom-right-radius: 0.25rem !important;

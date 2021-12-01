@@ -7945,6 +7945,16 @@ textarea.form-control-lg {
   border-top-right-radius: 20px;
 }
 
+.rounded-top-50 {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.rounded-bottom-50 {
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
 .rounded-left-50 {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
